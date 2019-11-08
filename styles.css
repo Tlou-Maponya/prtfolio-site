@@ -1,0 +1,107 @@
+@import url('https://images.pexels.com/photos/987648/pexels-photo-987648.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+body {
+    margin: 0%;
+    font-family: 'Nunito', sans-serif;
+    background: #eef1f7;
+
+}
+
+.content {
+    grid-area: content;
+    background: url("https://images.pexels.com/photos/6662/creative-smartphone-notebook-typography.jpg?auto=compress&cs=tinysrgb&h=750&w=1260");
+}
+.sidebar {
+    grid-area: sidebar;
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    justify-content: center;
+}
+
+.footer {
+    grid-area: footer;
+    background: #eef1f7;
+}
+
+.container {
+    font-size: 1.5em;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        "sidebar"
+        "content"
+        "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 130px 800px 250px;
+}
+ .content, 
+ .sidebar,
+ .footer {
+     padding: 1em;
+ }
+ nav ul {
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+ }
+ 
+ nav li a {
+     color: white;
+     font-weight: 700;
+     opacity: 0.6;
+     text-decoration: none;
+     transition: .3;
+ }
+
+ nav li a:hover {
+     opacity: 1;
+ }
+
+.hero {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.hero h1 {
+    font-size: 2em;
+    font-weight: 300;
+    color: #2b3544;
+}
+
+.hero p {
+    font-weight: 300;
+    color: #373d46;
+    line-height: 1.8em;
+}
+
+footer ul {
+    max-width: 640px;
+    margin: 2em auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: initial;
+}
+ footer ul li {
+     list-style: none;
+     align-self: flex-end;
+ }
+ footer ul li a {
+     text-decoration: none;\
+     color: #c1c6ce;
+ }
+
+ svg {
+     width: 40%;
+ }
+
+ footer p
