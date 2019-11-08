@@ -1,4 +1,4 @@
-@import url('https://images.pexels.com/photos/987648/pexels-photo-987648.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 body {
     margin: 0%;
     font-family: 'Nunito', sans-serif;
@@ -8,7 +8,7 @@ body {
 
 .content {
     grid-area: content;
-    background: url("https://images.pexels.com/photos/6662/creative-smartphone-notebook-typography.jpg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background: url("https://images.pexels.com/photos/1772123/pexels-photo-1772123.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 }
 .sidebar {
     grid-area: sidebar;
